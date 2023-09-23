@@ -1,0 +1,79 @@
+# questiobn 1: What is List? How will you reverse a list?
+# In python, a list is a type of sequence data structure that can hold an ordered
+# collect which can be of any type(such as numbers, strings,or other objects).
+
+# list are created using square brackets, and the elements are separated by commas.
+
+# revers a list->for a reverse a list in python you can use reverse method 
+# like mylist.reverse()
+
+#Question 3: Differentiate between append () and extend () methods?
+
+#append()
+The append() method adds a single element to the end of a list. 
+The element can be of any type, and it will be added as a new item in the list.
+
+#extend()
+The extend() method add multiple elements to the end of a list. 
+It takes an iterable (such as a list, tuple, or string) as its argument, and adds each element in the iterable 
+as a new item in the list.
+
+#Question 5: How will you compare two lists?
+
+You can compare two lists for equality using the == operator. 
+This will return True if the two lists have the same elements in the same order, and otherwise False . 
+
+
+#Question 18: What is tuple? Difference between list and tuple.
+
+Tuples are an immutable data type, which means that once they have been generated, 
+their elements cannot be changed.
+Since tuples are ordered sequences, each element has a specific order that will never change.
+
+#Difference between list and tuple.
+
+Tuples are defined using parentheses, whereas lists are defined using square brackets. 
+For example, a tuple might look like (1, 2, 3) while a list might look like [1, 2, 3].
+
+Once a tuple is created, you can't add or remove elements from it or change the values of its elements. Tuples are immutable.
+ 
+Lists are mutable and can be modified after they are created.
+
+
+#Question 31: How will you create a dictionary using tuples in python?
+
+To create a dictionary using tuples in Python, you can use the built-in dict() function. 
+The dict() function can take a list of tuples as an argument, where each tuple contains a 
+key-value pair that will be added to the dictionary.
+
+
+#Question 36: How Do You Check The Presence Of A Key In A Dictionary?
+
+In Python, you can check the presence of a key in a dictionary using the in operator or the get() method. 
+
+
+# question 43:Why Do You Use the Zip () Method in Python?
+
+The zip() method is a built-in function in Python that is used to combine multiple iterables into a single iterable object. 
+It takes one or more iterables (such as lists, tuples, or strings) as arguments, 
+and returns an iterator of tuples where the i-th tuple contains the i-th element from each of the input iterables.
+
+
+# question 52:How do you perform pattern matching in Python? Explain.
+
+Built-in functions: These are functions that are built into the Python language print(), len(), sum(), type(), etc.
+User-defined functions: These are functions that are created by users def
+Anonymous or lambda functions: These are small, single-expression functions and defined using the lambda keyword.
+
+
+# question 56:How will you set the starting value in generating random numbers?
+
+In Python, you can set the starting value, also known as the seed value, 
+for generating random numbers using the random.seed() function.
+
+
+#Question 57: How will you randomizes the items of a list in place?
+
+In Python, you can randomize the items of a list in place using the random module and the list method shuffle(). 
+
+

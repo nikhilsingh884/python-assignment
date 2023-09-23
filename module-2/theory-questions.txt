@@ -1,0 +1,13 @@
+4. What is the purpose continue statement in python? 
+--> In Python, the continue statement is used to control the flow of execution within loops (such as for and while loops). When the continue statement is encountered, it immediately stops the current iteration of the loop and moves on to the next iteration, effectively skipping the remaining code within the loop for that particular iteration.
+
+5. What are negative indexes and why are they used? 
+--> Negative indexes are a feature in many programming languages, including Python, that allow you to access elements in a sequence (such as a list or string) from the end, rather than the beginning. In other words, you can use negative numbers as indexes to count positions from the end of the sequence, with -1 referring to the last element, -2 to the second-to-last element, and so on.
+
+Here's why negative indexes are used and their benefits:
+
+Convenient Access to the End: Negative indexes provide a convenient way to access elements at the end of a sequence without having to manually calculate the position relative to the end. For example, -1 always refers to the last element, regardless of the length of the sequence.
+
+Simplify Reverse Traversal: Negative indexes are particularly useful when you need to iterate through a sequence in reverse order. You can start with -1 and decrement the index to access elements in reverse without needing to compute the reversed index manually.
+
+Easier Handling of Unknown Lengths: When working with sequences of unknown length, negative indexes allow you to easily access the last elements without needing to know the length in advance. This can make your code more flexible.
