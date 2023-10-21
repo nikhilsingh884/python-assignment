@@ -1,0 +1,116 @@
+# question 14: Explain Exception handling? What is an Error in Python?
+
+An exception is an event, which occurs during the execution of a program that disrupts 
+the normal flow of the program's instructions. In general, when a Python script encounters a situation
+that it cannot cope with, it raises an exception. An exception is a Python object 
+that represents an error.
+
+# question 15: qeustiomHow many except statements can a try-except block have?
+#Name Some built-in exception classes:
+
+a try block have at lease one exception
+key error
+syntax error
+inddex erroe
+value error
+
+# question 16:Can one block of except statements handle multiple exception?
+
+Yes, a single except block can handle multiple exceptions in Python. 
+You can specify multiple exception types in a single except block by
+enclosing them in parentheses and separating them with commas.
+
+# question 17:When is the finally block executed?
+
+The finally block in Python is always executed, regardless of whether an exception 
+is raised or not. It is used to define a block of code that should always be executed,
+even if an error occurs or if there is a return statement in the try or except blocks.
+
+
+# question 18: What happens when „1‟== 1 is executed?
+
+When the expression "1" == 1 is executed in Python, it will return False. 
+This is because "1" is a string literal, and 1 is an integer. 
+The == operator checks for equality between the two operands, and 
+since the string "1" and the integer 1 are of different types and have
+different values, they are not considered equal.
+
+In Python, the == operator compares the values of the two operands, regardless
+of their types. If the values are equal, the expression evaluates to True, and if
+they are not equal, the expression evaluates to False.
+
+# question 19: How Do You Handle Exceptions With Try/Except/Finally In Python? Explain with coding snippets.
+def divide(a, b):
+    try:
+        result = a // b
+    except ZeroDivisionError:
+        print("Sorry ! You are dividing by zero ")
+    else:
+        print("Yeah ! Your answer is :", result)
+    finally: 
+       
+        print('This is always executed')  
+divide(3, 2)
+divide(3, 0)
+
+# question 21: What are oops concepts? Is multiple inheritance supported in java
+
+Object-oriented programming (OOP) is a programming paradigm that is based on the concept of objects.
+It focuses on creating reusable code by defining objects that have properties (attributes) and methods
+(behaviors) that can be used to perform specific tasks. There are four main concepts in OOP:
+
+Encapsulation:
+class and object:
+inheritance:
+abstraction:
+polymerphism:
+    
+
+# question 22: How to Define a Class in Python? What Is Self? Give An Example Of A Python Class
+
+# In Python, a class is defined using the class keyword followed by the name of the class,
+# which is usually in CamelCase convention. The class definition consists of a header
+# line and a body, which is indented. The header line includes the keyword class, 
+# followed by the class name and a colon.Here is an example of how to define a simple class in Python:
+    
+class Dog:
+    def __init__(self, name, age):
+        self.name = name/
+        self.age = age
+
+    def bark(self):
+        print("Woof! My name is", self.name, "and I'm", self.age, "years old.")
+        
+In this example, we defined a Dog class with a constructor (__init__) and a method bark. 
+The constructor takes two arguments, name and age, and initializes two instance variables
+(self.name and self.age) with these values.The bark method simply prints a message with
+the dog's name and age.        
+
+The self parameter in the constructor and methods refers to the instance of the class that 
+is being created or called.It allows you to access instance variables and methods within the class.
+
+   
+
+# question 26:What is Instantiation in terms of OOP terminology?
+
+Instantiation is a term used in object-oriented programming (OOP) to refer to the process
+of creating an instance of a class. In simpler terms, it means creating an object from a class.
+
+When a class is defined, it serves as a blueprint for creating objects of that class. 
+An object is created by calling the class name.
+    
+
+
+# question 27:What is used to check whether an object o is an instance of class A?
+
+In Python, you can use the isinstance() function to check whether an object is an instance of a particular class.
+The isinstance() function takes two arguments: the object you want to check, and the class you want to check against.
+
+# question 28:What relationship is appropriate for Course and Faculty?
+
+The appropriate relationship between the Course and Faculty classes would be a many-to-many relationship,
+where a course can have many faculty members and a faculty member can teach multiple courses.
+
+# question29:question What relationship is appropriate for Student and Person?
+
+The appropriate relationship between the student and person would be inheritance.
